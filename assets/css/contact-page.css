@@ -1,0 +1,19 @@
+/* body{
+    height: fit-content;
+} */
+
+iframe{
+    margin-top: 50px !important;
+    min-height:130vh;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+
+@media only screen and (max-width: 736px) {
+    iframe{
+        margin-top: 4px !important;
+        min-height: 140vh;
+    }
+  }
+  
